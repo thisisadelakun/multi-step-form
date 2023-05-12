@@ -1,0 +1,126 @@
+.cardHeader h2 {
+    color: var(--Marineblue);
+    font-family: inherit;
+    margin: 0.8rem 0;
+}
+
+.cardHeader P {
+    color: var(--Coolgray);
+    font-family: inherit;
+    width: 90%;
+    margin: 0.5rem 0;
+}
+
+.addons-container {
+    width: 100%;
+    display: flex;
+    gap: 0.9375rem;
+    flex-direction: column;
+    margin: 1.5rem 0rem;
+}
+
+.addons-container label {
+    padding:  0.7rem;
+    border: 0.0625rem solid;
+    width: 100%;
+    height: 5.12rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 0.625rem;
+    border: 0.0625rem solid;
+    border-color: var(--Lightgray);
+    position: relative;
+    cursor: pointer;
+}
+
+.addons-container label:hover {
+    border: 0.0625rem solid;
+    border-color: var(--Purplishblue);
+}
+
+.addonslabel input {
+    width: 1.12rem;
+    height: 1.12rem;
+    border-radius: 70px;
+    background-color: red;
+}
+
+.addonslabel:has([type="checkbox"]:checked) {
+    background-color: var(--Alabaster);
+    border: 2px solid;
+    border-color: var(--Coolgray);
+}
+
+.addons-col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.addons-text {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-items: flex-start;
+    gap: 0.5069rem;
+}
+
+.addons-text p {
+    color: var(--Marineblue);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -1px;
+    line-height: 1.125rem;
+}
+
+.addons-text span {
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: -0.5px;
+    line-height: 20px;
+    margin-top: -7px;
+    color: var(--Coolgray);
+}
+
+.addons-price {
+    display: flex;
+    color: var(--Purplishblue);
+    font-weight: 500;
+    font-size: 0.95rem;
+    line-height: 1.25rem;
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .cardHeader P {
+        width: 100%;
+    }
+
+    .addons-container label {
+        padding: 1rem;
+        border: 0.0625rem solid;
+        width: 100%;
+        /* height: 5.12rem; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* gap: 16rem; */
+        border-radius: 0.625rem;
+        border: 0.0625rem solid;
+        border-color: var(--Lightgray);
+        /* position: inherit; */
+        cursor: pointer;
+    }
+
+    .addons-price {
+        position: inherit;
+        display: flex;
+        width: 100%;
+        /* justify-content: flex-end; */
+
+    }
+
+}

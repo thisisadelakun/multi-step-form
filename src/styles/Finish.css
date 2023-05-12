@@ -1,0 +1,58 @@
+.totals-col {
+    border-radius: 0.6rem;
+    display: grid;
+    background-color: var(--Alabaster);
+    padding: 0.5rem 1rem;
+}
+
+.totals-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+.total-grid {
+    display: grid;
+}
+
+.total-grid h4 {
+    font-size: 18px;
+    color: var(--Marineblue);
+}
+
+.total-grid-price p {
+    color: var(--Marineblue);
+    font-weight: 600;
+}
+
+.btn-change {
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: var(--Coolgray);
+    text-align: start;
+    text-decoration: underline;
+}
+
+.divider {
+    height: 1px;
+    background-color: var(--Lightgray);
+    margin-inline: 2px;
+}
+.gray{
+    color: var(--Coolgray);
+}
+.total-row-price{
+    color: var(--Marineblue);
+    font-weight: 500;
+}
+
+.final-total {
+    padding: 0.5rem 1rem;
+}
+.final-price{
+    font-weight: 700;
+    color: var(--Purplishblue);
+    font-size: 17px;
+}

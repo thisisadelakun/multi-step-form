@@ -1,0 +1,45 @@
+.cardform {
+    margin: 1rem 0;
+}
+
+.cardLabel {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.cardLabel input {
+    padding: 0.9rem;
+    border-radius: 5px;
+    border-color: var(--Coolgray);
+    border-width: 1.5px;
+    margin: 0.2rem 0;
+}
+
+.cardLabel input::placeholder {
+    color: var(--Lightgray);
+    font-size: 15px;
+}
+
+.cardLabel input:focus {
+    border: 1px solid var(--Coolgray);
+    outline: 1px solid var(--Coolgray);
+}
+
+.cardLabel input:not([value=""]):not(:focus):invalid {
+    border: 1px solid  var( --Strawberryred);
+}
+
+.invalid{
+    border: 1px solid  var( --Strawberryred);
+}
+
+.labelspan{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+
+.labelspan span:nth-child(2){
+    color: var(--Strawberryred);
+}

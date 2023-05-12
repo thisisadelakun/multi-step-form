@@ -1,0 +1,32 @@
+.thankyoucard-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.2rem 0.5rem;
+}
+
+.thankyoucard-col h1 {
+    width: 100%;
+    text-align: center;
+    color: var(--Marineblue);
+    margin: 1rem 0;
+}
+
+.thankyoucard-col p {
+    width: 100%;
+    text-align: center;
+    width: 95%;
+    color: var(--Coolgray);
+    line-height: 25px;
+}
+
+@media screen and (min-width:768px) {
+    .thankyoucard-col {
+        padding-top: 7.95rem;
+    }
+
+    .thankyoucard-col p {
+        width: 100%;
+
+    }
+}

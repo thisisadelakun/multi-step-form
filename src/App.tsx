@@ -31,7 +31,7 @@ function App() {
   const [formData, setFormData] = useState(initialValues);
 
   const newFormData = (newForm: Partial<FormItems>) =>
-    setFormData((prev) => ({ ...formData, ...newForm }));
+    setFormData(() => ({ ...formData, ...newForm }));
 
 const [isFormSubmitted, setIsFormSubmitted] = useState(false);
   const {
@@ -40,7 +40,6 @@ const [isFormSubmitted, setIsFormSubmitted] = useState(false);
     nextSteps,
     setFirstStep,
     setLastStep,
-    goToSection,
     setConfirmation,
   } = useFormStep(navBar.length + 1);
 

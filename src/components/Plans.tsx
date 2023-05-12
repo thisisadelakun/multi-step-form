@@ -42,7 +42,7 @@ const Plans = ({ plan, setDuration, newFormData }: StepProps) => {
               name="plan"
               id="arcade"
               checked={plan === "Arcade"}
-              onChange={(e) => newFormData({ plan: "Arcade" })}
+              onChange={() => newFormData({ plan: "Arcade" })}
             />
           </div>
         </label>
@@ -50,7 +50,7 @@ const Plans = ({ plan, setDuration, newFormData }: StepProps) => {
         <label htmlFor="advanced">
           <div className="plan-col advance-plan">
             <div className="plan-icon">
-              <img src={advancedIcon} alt="Advanced icon"/>
+              <img src={advancedIcon} alt="Advanced icon" />
             </div>
 
             <div className="plan-text">
@@ -67,7 +67,7 @@ const Plans = ({ plan, setDuration, newFormData }: StepProps) => {
               name="plan"
               id="advanced"
               checked={plan === "Advanced"}
-              onChange={(e) => newFormData({ plan: "Advanced" })}
+              onChange={() => newFormData({ plan: "Advanced" })}
             />
           </div>
         </label>
@@ -92,7 +92,7 @@ const Plans = ({ plan, setDuration, newFormData }: StepProps) => {
               name="plan"
               id="pro"
               checked={plan === "Pro"}
-              onChange={(e) => newFormData({ plan: "Pro" })}
+              onChange={() => newFormData({ plan: "Pro" })}
             />
           </div>
         </label>
@@ -106,6 +106,8 @@ const Plans = ({ plan, setDuration, newFormData }: StepProps) => {
             type="checkbox"
             name="setPlan"
             checked={setDuration}
+
+
             onChange={(e) => newFormData({ setDuration: e.target.checked })}
           />
           <div className="plan-toggle"></div>

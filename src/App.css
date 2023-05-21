@@ -1,7 +1,7 @@
 :root {
   font-family: 'Ubuntu', sans-serif;
 
-  --Marineblue: hwb(213 1% 65%);
+  --Marineblue: hsl(213, 96%, 18%);
   --Purplishblue: hsl(243, 100%, 62%);
   --Pastelblue: hsl(228, 100%, 84%);
   --Lightblue: hsl(206, 94%, 87%);
@@ -9,7 +9,8 @@
   --Coolgray: hsl(231, 11%, 63%);
   --Lightgray: hsl(229, 24%, 87%);
   --Magnolia: hsl(217, 100%, 97%);
-  --Alabaster: hsl(231, 5%, 48%) --White: hsl(0, 0%, 100%);
+  --Alabaster: hsl(231, 5%, 48%);
+  --White: hsl(0, 0%, 100%);
 }
 
 .App {
@@ -66,7 +67,7 @@ main {
 
 .card {
   display: block;
-  background-color: var(--White);
+  background-color: white;
   width: 93%;
   height: 100%;
   margin: auto;
@@ -74,29 +75,29 @@ main {
   z-index: 500;
   padding: 0.8rem 1.5rem;
   border-radius: 10px;
-  box-shadow: 0px 1px 15px var(--Lightgray);
+  box-shadow: 0px 1px 15px hsl(229, 24%, 87%);
 }
 
 .card h2 {
-  color: var(--Marineblue);
+  color: hwb(213 1% 65%);
   font-family: inherit;
   margin: 0.5rem 0;
 }
 
 .card P {
-  color: var(--Coolgray);
+  color: hsl(231, 11%, 63%);
   font-family: inherit;
   width: 90%;
 }
 
 input:not([value=""]):not(:focus):invalid {
-  border-color: var(--Strawberryred);
+  border-color: hsl(354, 84%, 57%);
   border: 1px;
 }
 
 
 .footer {
-  background-color: var(--White);
+  background-color: white;
   display: flex;
   align-items: center;
   position: fixed;
@@ -117,7 +118,7 @@ input:not([value=""]):not(:focus):invalid {
 }
 
 .btn {
-  background-color: var(--Marineblue);
+  background-color: hsl(213, 96%, 18%);
   color: var(--White);
   border-radius: 5px;
   border: none;
@@ -136,7 +137,7 @@ input:not([value=""]):not(:focus):invalid {
 }
 
 .btn.submit {
-  background-color: var(--Purplishblue);
+  background-color: hsl(243, 100%, 62%);
 }
 
 .btn.submit:hover {
@@ -150,7 +151,6 @@ input:not([value=""]):not(:focus):invalid {
 }
 
 .btn.back:hover {
-  color: var(--Marineblue);
   font-weight: 700;
 
 }
@@ -178,7 +178,7 @@ input:not([value=""]):not(:focus):invalid {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 1px 15px var(--Lightgray);
+    box-shadow: 0px 1px 15px hsl(229, 24%, 87%);
   }
 
   .step-container {

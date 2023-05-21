@@ -1,7 +1,3 @@
-# Frontend Mentor - Multi-step form solution
-
-This is a solution to the [Multi-step form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -29,14 +25,6 @@ Users should be able to:
 
 ![](./screenshots/msf_desktop1.png)
 ![](./screenshots/msf_mobile1.png)
-<!-- ![](./screenshots/msf_desktop2.png)
-![](./screenshots/msf_mobile2.png)
-![](./screenshots/msf_desktop3.png)
-![](./screenshots/msf_mobile3.png)
-![](./screenshots/msf_desktop4.png)
-![](./screenshots/msf_mobile4.png)
-![](./screenshots/msf_desktop5.png)
-![](./screenshots/msf_mobile5.png) -->
 
 
 ### Links
@@ -74,6 +62,6 @@ I intend to keep practicing React and Typescript.
 - LinkedIn - [Adelakun Abayomi](https://www.linkedin.com/in/abayomi-adelakun-897227178/)
 - Portfolio - [Adelakun Abayomi](https://adelakunportfolio.netlify.app/)
 - Frontend Mentor - [@thisisadelakun](https://www.frontendmentor.io/profile/thisisadelakun)
-- Twitter - [@yourusername](https://www.twitter.com/thisisadelakun)
+- Twitter - [@thisisadelakun](https://www.twitter.com/thisisadelakun)
 
 

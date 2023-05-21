@@ -108,7 +108,7 @@ const Plans = ({ plan, setDuration, newFormData }: StepProps) => {
             checked={setDuration}
 
 
-            onChange={(e) => newFormData({ setDuration: e.target.checked })}
+            onClick={(e) => newFormData({ setDuration: e.target.checked })}
           />
           <div className="plan-toggle"></div>
           <span>Yearly</span>

@@ -59,7 +59,7 @@
 
 .choose-plan {
     width: 100%;
-    background-color: hsl(231, 5%, 48%);
+    background-color: var(--Alabaster);
     padding: 1rem 0;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .choose-plan-col span {
-    color:  hsl(213, 96%, 18%);
+    color:  var(--Marineblue);
     font-weight: 700;
 }
 
@@ -91,7 +91,7 @@
     height: 1.4rem;
     border-radius: 100vmax;
     pointer-events: none;
-    background-color:  hsl(213, 96%, 18%);
+    background-color:  var(--Marineblue);
 }
 
 .plan-toggle::before {
